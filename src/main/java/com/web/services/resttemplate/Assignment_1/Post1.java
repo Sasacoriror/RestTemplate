@@ -1,13 +1,13 @@
 package com.web.services.resttemplate.Assignment_1;
 
-public class Post {
+public class Post1 {
 
     private int userId;
     private int id;
     private String title;
     private String body;
 
-    public Post(int userId, int id, String title, String body) {
+    public Post1(int userId, int id, String title, String body) {
         this.userId = userId;
         this.id = id;
         this.title = title;

@@ -15,7 +15,7 @@ public class Basic_Get_Request {
     public static void main(String[] args) {
         RestTemplate restTemplate = new RestTemplate();
         int Id = 1;
-        Post post = restTemplate.getForObject("https://jsonplaceholder.typicode.com/posts/{id}", Post.class, Id);
+        Post1 post = restTemplate.getForObject("https://jsonplaceholder.typicode.com/posts/{id}", Post1.class, Id);
 
         System.out.println(post);
     }
